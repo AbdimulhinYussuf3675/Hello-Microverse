@@ -1,15 +1,37 @@
-*{
-    padding: 0;
-    box-sizing: 0;
+* {
+  padding: 0;
+  box-sizing: 0;
 }
-#main{
-    background-color: rgb(235, 228, 228);
-    border-radius: 1%;
+#main {
+  background-color: rgb(235, 228, 228);
+  border-radius: 1%;
 }
-#title{
-    text-align: center;
+
+#img-caption {
+  text-align: center;
 }
-#img-div{
-    text-align: center;
-    background-color: white;
+
+#title {
+  text-align: center;
+  padding: 10px;
+}
+#img-div {
+  background-color: white;
+  margin: 10px;
+  padding: 5px;
+}
+
+#tribute-info {
+  width: 60%;
+  margin-left: 20%;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+#tribute-info ul li {
+  font-size: large;
+  line-height: 150%;
 }
